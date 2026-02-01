@@ -9,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { CreditCard, Smartphone, Building2, Heart, Check } from "lucide-react";
+import { CreditCard, Smartphone, Building2, TreePine, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface DonationModalProps {
@@ -72,7 +72,7 @@ const DonationModal = ({ open, onOpenChange }: DonationModalProps) => {
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2 text-foreground">
-            <Heart className="w-5 h-5 text-secondary" />
+            <TreePine className="w-5 h-5 text-secondary" />
             Make a Donation
           </DialogTitle>
           <DialogDescription>
@@ -152,6 +152,45 @@ const DonationModal = ({ open, onOpenChange }: DonationModalProps) => {
             </div>
           </div>
 
+          {/* Payment Details (QR / Bank) */}
+          {selectedMethod === "upi" && (
+            <div className="flex flex-col items-center gap-4 p-4 border rounded-lg bg-muted/30">
+              <p className="text-sm font-medium text-foreground">Scan QR to Pay via any UPI App</p>
+              <div className="bg-white p-2 rounded-lg shadow-sm">
+                <img
+                  src="/donation_qr.jpg"
+                  alt="Donation QR Code"
+                  className="w-48 h-auto"
+                />
+              </div>
+              <p className="text-xs text-muted-foreground">APULAKI SOCIAL FOUNDATION</p>
+            </div>
+          )}
+
+          {selectedMethod === "bank" && (
+            <div className="p-4 border rounded-lg bg-muted/30 space-y-3">
+              <p className="text-sm font-medium text-foreground border-b pb-2">Bank Account Details</p>
+              <div className="space-y-2 text-sm">
+                <div className="flex justify-between">
+                  <span className="text-muted-foreground">Account Name:</span>
+                  <span className="font-medium text-foreground">APULAKI SOCIAL FOUNDATION</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-muted-foreground">Account Number:</span>
+                  <span className="font-mono font-medium text-foreground">060610210000245</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-muted-foreground">IFSC Code:</span>
+                  <span className="font-mono font-medium text-foreground">BKID0000606</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-muted-foreground">Bank:</span>
+                  <span className="font-medium text-foreground">Bank of India</span>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Donate Button */}
           <Button
             className="w-full h-12 bg-secondary hover:bg-secondary/90 text-secondary-foreground font-medium"
@@ -161,15 +200,15 @@ const DonationModal = ({ open, onOpenChange }: DonationModalProps) => {
             {isProcessing ? (
               <span className="flex items-center gap-2">
                 <span className="w-4 h-4 border-2 border-secondary-foreground/30 border-t-secondary-foreground rounded-full animate-spin" />
-                Processing...
+                Done
               </span>
             ) : (
-              `Donate ₹${finalAmount?.toLocaleString() || 0}`
+              `I have donated ₹${finalAmount?.toLocaleString() || 0}`
             )}
           </Button>
 
           <p className="text-xs text-center text-muted-foreground">
-            This is a demo. No actual payment will be processed.
+            Please share a screenshot of your payment on our WhatsApp after donating.
           </p>
         </div>
       </DialogContent>

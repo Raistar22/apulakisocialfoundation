@@ -64,7 +64,7 @@ const ActivitiesCarousel = () => {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto px-12">
+        <div className="max-w-7xl mx-auto px-12">
           <Carousel
             opts={{
               align: "start",
@@ -80,13 +80,13 @@ const ActivitiesCarousel = () => {
           >
             <CarouselContent>
               {activities.map((activity, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={index} className="md:basis-1/2">
                   <div className="p-2">
                     <div className="overflow-hidden rounded-lg shadow-lg bg-background">
                       <img
                         src={activity.src}
                         alt={activity.alt}
-                        className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105"
+                        className="w-full h-[500px] object-cover transition-transform duration-300 hover:scale-105"
                       />
                       <div className="p-3 bg-background">
                         <p className="text-sm text-muted-foreground text-center">

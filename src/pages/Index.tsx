@@ -4,6 +4,7 @@ import AboutUs from "@/components/AboutUs";
 import ActivitiesCarousel from "@/components/ActivitiesCarousel";
 import EventHighlight from "@/components/EventHighlight";
 import Objectives from "@/components/Objectives";
+import ResearchReport from "@/components/ResearchReport";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
         <Hero />
         <AboutUs />
         <ActivitiesCarousel />
+        <ResearchReport />
         <EventHighlight />
         <Objectives />
       </main>
