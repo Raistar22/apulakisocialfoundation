@@ -41,6 +41,7 @@ const Header = () => {
       ],
     },
     { name: "Contact", hasDropdown: false, href: "#contact" },
+    { name: "Gallery", hasDropdown: false, href: "https://drive.google.com/file/d/1-ftrnUDjxsCN0r0gXH7Q9g4vixbvfP1G/view?usp=drive_link", external: true },
   ];
 
   return (
@@ -86,6 +87,8 @@ const Header = () => {
                   <a
                     key={item.name}
                     href={item.href}
+                    target={item.external ? "_blank" : undefined}
+                    rel={item.external ? "noopener noreferrer" : undefined}
                     className="text-sm font-medium text-foreground hover:text-primary transition-colors"
                   >
                     {item.name}
