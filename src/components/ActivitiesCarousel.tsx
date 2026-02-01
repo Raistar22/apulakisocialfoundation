@@ -17,6 +17,16 @@ import activity7 from "@/assets/activity-7.jpg";
 import activity8 from "@/assets/activity-8.jpg";
 import activity9 from "@/assets/activity-9.jpg";
 import activity10 from "@/assets/activity-10.jpg";
+import activity11 from "@/assets/activity-11.jpg";
+import activity12 from "@/assets/activity-12.jpg";
+import activity13 from "@/assets/activity-13.jpg";
+import activity14 from "@/assets/activity-14.jpg";
+import activity15 from "@/assets/activity-15.jpg";
+import activity16 from "@/assets/activity-16.jpg";
+import activity17 from "@/assets/activity-17.jpg";
+import activity18 from "@/assets/activity-18.jpg";
+import activity19 from "@/assets/activity-19.jpg";
+import activity20 from "@/assets/activity-20.jpg";
 
 const activities = [
   { src: activity1, alt: "Tree Plantation News Coverage" },
@@ -29,6 +39,16 @@ const activities = [
   { src: activity8, alt: "Foundation Members Gathering" },
   { src: activity9, alt: "Felicitation Ceremony" },
   { src: activity10, alt: "Tree Plantation Program" },
+  { src: activity11, alt: "Lokmanthan News Coverage" },
+  { src: activity12, alt: "Community Group Photo" },
+  { src: activity13, alt: "Rainy Day Plantation Drive" },
+  { src: activity14, alt: "Sarpanch Felicitation" },
+  { src: activity15, alt: "Coconut Offering Ceremony" },
+  { src: activity16, alt: "Foundation Banner with Members" },
+  { src: activity17, alt: "Vrukshabishi Waghapur Banner" },
+  { src: activity18, alt: "Community Gathering in Rain" },
+  { src: activity19, alt: "Tree Planting by Elder" },
+  { src: activity20, alt: "Sapling Planting Ceremony" },
 ];
 
 const ActivitiesCarousel = () => {
