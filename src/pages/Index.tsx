@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Objectives from "@/components/Objectives";
+import AboutUs from "@/components/AboutUs";
 import EventHighlight from "@/components/EventHighlight";
+import Objectives from "@/components/Objectives";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -10,6 +11,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <AboutUs />
         <EventHighlight />
         <Objectives />
       </main>
