@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# Apulaki Social Foundation
 
-## Project info
+Apulaki Social Foundation is a non-profit organization dedicated to **Trees & Biodiversity Conservation**. This web application serves as our digital platform to showcase our activities, share research findings, and facilitate community engagement and donations.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌿 Our Mission
 
-## How can I edit this code?
+Our commitment to biodiversity conservation is backed by extensive fieldwork and research. We focus on:
+- **Tree Plantation Drives**: Reforestation and urban greening initiatives across Maharashtra.
+- **Biodiversity Research**: Documenting and protecting local flora and fauna.
+- **Community Engagement**: Awareness programs and community-led conservation efforts.
 
-There are several ways of editing your application.
+## 🚀 Key Features
 
-**Use Lovable**
+- **Activity Gallery**: A comprehensive view of our tree plantation drives and community events.
+- **Research & Publications**: Access to our latest findings, including the "Butterflies of Waghapur" study.
+- **Seamless Donations**: Support our cause through secure UPI or Bank Transfer methods.
+- **Responsive Design**: A premium, modern web experience accessible on all devices.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React**: Modern UI development.
+- **Vite**: Ultra-fast build tool and development server.
+- **Tailwind CSS**: Utility-first styling for a sleek design.
+- **shadcn/ui**: High-quality, accessible UI components.
+- **Lucide Icons**: Clean and consistent iconography.
 
-**Use your preferred IDE**
+## 💻 Local Development
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+To run the project locally, follow these steps:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/Raistar22/apulakisocialfoundation.git
+   cd apulakisocialfoundation
+   ```
 
-Follow these steps:
+2. **Install Dependencies**:
+   ```sh
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Start Development Server**:
+   ```sh
+   npm run dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The application will be available at `http://localhost:8080`.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🤝 Support Our Cause
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+We rely on the generosity of our supporters to continue our mission. You can contribute via our donation portal on the website using UPI or Bank Transfer.
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+© 2024 Apulaki Social Foundation. All Rights Reserved.
