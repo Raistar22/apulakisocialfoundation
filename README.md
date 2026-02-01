@@ -46,6 +46,11 @@ To run the project locally, follow these steps:
 
 The application will be available at `http://localhost:8080`.
 
+## 📧 Contact Information
+
+For any queries or information, you can reach out to us at:
+**Email**: [apulakifoundationwaghapur@gmail.com](mailto:apulakifoundationwaghapur@gmail.com)
+
 ## 🤝 Support Our Cause
 
 We rely on the generosity of our supporters to continue our mission. You can contribute via our donation portal on the website using UPI or Bank Transfer.

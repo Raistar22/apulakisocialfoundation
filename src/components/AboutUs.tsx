@@ -84,14 +84,20 @@ const AboutUs = () => {
             <p className="text-muted-foreground">
               <span className="font-medium text-foreground">Area of Operation:</span> Maharashtra
             </p>
+            <p className="text-muted-foreground flex items-center justify-center gap-2 mt-2">
+              <span className="font-medium text-foreground">Email:</span>
+              <a href="mailto:apulakifoundationwaghapur@gmail.com" className="hover:text-primary transition-colors">
+                apulakifoundationwaghapur@gmail.com
+              </a>
+            </p>
           </div>
         </div>
 
         {/* Mission Statement */}
         <div className="bg-primary/10 rounded-xl p-6 md:p-8 mb-12 max-w-3xl mx-auto text-center">
           <p className="text-lg text-foreground leading-relaxed">
-            We are a dedicated social organization working towards environment conservation, 
-            quality education, social welfare, health awareness, and community development 
+            We are a dedicated social organization working towards environment conservation,
+            quality education, social welfare, health awareness, and community development
             across Maharashtra.
           </p>
         </div>

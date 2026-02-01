@@ -13,7 +13,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-card border-t border-border">
+    <footer id="contact" className="bg-card border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Organization Details */}
@@ -40,6 +40,17 @@ const Footer = () => {
                 <div className="text-sm">
                   <p className="font-medium text-foreground">Location:</p>
                   <p className="text-muted-foreground">Waghapur, Tal. Purandar, Dist. Pune</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <div className="w-4 h-4 flex items-center justify-center mt-0.5 flex-shrink-0">
+                  <TreePine className="w-4 h-4 text-primary" />
+                </div>
+                <div className="text-sm">
+                  <p className="font-medium text-foreground">Email:</p>
+                  <a href="mailto:apulakifoundationwaghapur@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    apulakifoundationwaghapur@gmail.com
+                  </a>
                 </div>
               </div>
             </div>
