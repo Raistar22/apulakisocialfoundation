@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import AboutUs from "@/components/AboutUs";
 import ActivitiesCarousel from "@/components/ActivitiesCarousel";
+import ClimateImpact from "@/components/ClimateImpact";
+import DiwaliEvent from "@/components/DiwaliEvent";
 import EventHighlight from "@/components/EventHighlight";
 import Objectives from "@/components/Objectives";
 import ResearchReport from "@/components/ResearchReport";
@@ -15,6 +17,8 @@ const Index = () => {
         <Hero />
         <AboutUs />
         <ActivitiesCarousel />
+        <ClimateImpact />
+        <DiwaliEvent />
         <ResearchReport />
         <EventHighlight />
         <Objectives />

@@ -9,6 +9,20 @@ Our commitment to biodiversity conservation is backed by extensive fieldwork and
 - **Biodiversity Research**: Documenting and protecting local flora and fauna.
 - **Community Engagement**: Awareness programs and community-led conservation efforts.
 
+## 🌍 Climate Impact & Our Mission
+
+"We are the first generation to feel the effect of climate change and the last generation who can do something about it."
+
+At native we are putting all our efforts into planting to see the big difference.
+
+## 🪔 Diwali 2025 Event
+
+**Diwali 2025 Fort making competitions price distribution**
+
+We celebrate our cultural heritage by organizing traditional fort-making competitions during Diwali, fostering creativity and a sense of history among the youth.
+
+**Thank you team, Apulaki Social Foundation.**
+
 ## 🚀 Key Features
 
 - **Activity Gallery**: A comprehensive view of our tree plantation drives and community events.
