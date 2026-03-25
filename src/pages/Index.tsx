@@ -7,6 +7,8 @@ import DiwaliEvent from "@/components/DiwaliEvent";
 import EventHighlight from "@/components/EventHighlight";
 import Objectives from "@/components/Objectives";
 import ResearchReport from "@/components/ResearchReport";
+import FunPicnicEvent from "@/components/FunPicnicEvent";
+import RecyclingProject from "@/components/RecyclingProject";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -19,6 +21,8 @@ const Index = () => {
         <ActivitiesCarousel />
         <ClimateImpact />
         <DiwaliEvent />
+        <FunPicnicEvent />
+        <RecyclingProject />
         <ResearchReport />
         <EventHighlight />
         <Objectives />
